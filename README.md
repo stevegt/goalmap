@@ -17,18 +17,18 @@ Example input:
   - make dinner                                             
     - buy ingredients                                             
       - find recipe                                                 
-      - make income                                                    
+      - earn income                                                    
     - have a place to cook                                             
       - pay electric bill                                             
-        - make income                                                                
+        - earn income                                                                
           - help someone who can pay you                                             
             - learn how to help others                                             
       - buy stove                                                          
-        - make income                                                      
+        - earn income                                                      
       - buy pots and pans                                                  
-        - make income                                                      
-      - pay rent or buy a houe                                             
-        - make income                                 
+        - earn income                                                      
+      - pay rent or buy a house                                             
+        - earn income                                 
 ```
 
 Example output:

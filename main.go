@@ -52,7 +52,7 @@ type Node struct {
 }
 
 type Graph struct {
-	// map of node text to node
+	// map of node name to node
 	Nodes map[string]*Node
 }
 
@@ -101,7 +101,8 @@ func getText(src []byte, node gast.Node) string {
 		if nodeKind(child, "TextBlock") {
 			// get the text
 			text := string(child.Text(src))
-			// wrap
+			// wrap name at 30 characters
+			// XXX this should be a command line option
 			text = wrap.Wrap(text, 30)
 			return text
 		}
