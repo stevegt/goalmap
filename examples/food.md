@@ -1,0 +1,17 @@
+- eat
+  - make dinner
+    - buy ingredients
+      - find recipe
+      - make income
+    - have a place to cook
+      - pay electric bill
+        - make income 
+          - help someone who can pay you
+            - learn how to help others
+      - buy stove
+        - make income 
+      - buy pots and pans
+        - make income 
+      - pay rent or buy a houe
+        - make income 
+          

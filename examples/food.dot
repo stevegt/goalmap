@@ -1,0 +1,100 @@
+digraph "" {
+	graph [bb="0,0,808.5,468",
+		rankdir=TB
+	];
+	node [label="\N"];
+	"eat
+"	 [height=0.5,
+		pos="219.84,18",
+		width=0.75];
+	"make dinner
+"	 [height=0.5,
+		pos="219.84,90",
+		width=1.6399];
+	"make dinner
+" -> "eat
+"	 [pos="e,219.84,36.413 219.84,71.831 219.84,64.131 219.84,54.974 219.84,46.417"];
+	"buy ingredients
+"	 [height=0.5,
+		pos="70.845,234",
+		width=1.9679];
+	"buy ingredients
+" -> "make dinner
+"	 [pos="e,201.89,107.35 89.115,216.34 115.51,190.83 164.41,143.57 194.35,114.64"];
+	"have a place to cook
+"	 [height=0.5,
+		pos="367.84,162",
+		width=2.4963];
+	"have a place to cook
+" -> "make dinner
+"	 [pos="e,251.46,105.38 333.52,145.3 311.75,134.71 283.49,120.96 260.59,109.82"];
+	"find recipe
+"	 [height=0.5,
+		pos="70.845,306",
+		width=1.4609];
+	"find recipe
+" -> "buy ingredients
+"	 [pos="e,70.845,252.41 70.845,287.83 70.845,280.13 70.845,270.97 70.845,262.42"];
+	"pay electric bill
+"	 [height=0.5,
+		pos="230.84,234",
+		width=1.975];
+	"pay electric bill
+" -> "have a place to cook
+"	 [pos="e,335.45,179.02 261.93,217.66 281.05,207.61 305.78,194.62 326.53,183.71"];
+	"buy stove
+"	 [height=0.5,
+		pos="367.84,234",
+		width=1.3422];
+	"buy stove
+" -> "have a place to cook
+"	 [pos="e,367.84,180.41 367.84,215.83 367.84,208.13 367.84,198.97 367.84,190.42"];
+	"buy pots and pans
+"	 [height=0.5,
+		pos="514.84,234",
+		width=2.2362];
+	"buy pots and pans
+" -> "have a place to cook
+"	 [pos="e,401.92,178.69 481.12,217.48 460.35,207.31 433.52,194.17 411.19,183.23"];
+	"pay rent or buy a houe
+"	 [height=0.5,
+		pos="710.84,234",
+		width=2.7126];
+	"pay rent or buy a houe
+" -> "have a place to cook
+"	 [pos="e,430.05,175.06 646.33,220.46 587.6,208.13 500.99,189.95 439.99,177.14"];
+	"help someone who can pay you
+"	 [height=0.5,
+		pos="367.84,378",
+		width=3.6811];
+	"make income
+"	 [height=0.5,
+		pos="367.84,306",
+		width=1.7442];
+	"help someone who can pay you
+" -> "make income
+"	 [pos="e,367.84,324.41 367.84,359.83 367.84,352.13 367.84,342.97 367.84,334.42"];
+	"learn how to help others
+"	 [height=0.5,
+		pos="367.84,450",
+		width=2.8989];
+	"learn how to help others
+" -> "help someone who can pay you
+"	 [pos="e,367.84,396.41 367.84,431.83 367.84,424.13 367.84,414.97 367.84,406.42"];
+	"make income
+" -> "buy ingredients
+"	 [pos="e,122.31,246.48 319.8,294.35 268.69,281.96 187.69,262.33 132.05,248.84"];
+	"make income
+" -> "pay electric bill
+"	 [pos="e,262.11,250.43 337.44,290.02 317.94,279.77 292.4,266.35 271.2,255.21"];
+	"make income
+" -> "buy stove
+"	 [pos="e,367.84,252.41 367.84,287.83 367.84,280.13 367.84,270.97 367.84,262.42"];
+	"make income
+" -> "buy pots and pans
+"	 [pos="e,481.22,250.47 399.74,290.38 420.89,280.02 448.9,266.3 471.99,254.99"];
+	"make income
+" -> "pay rent or buy a houe
+"	 [pos="e,646.4,247.53 418.83,295.3 476.43,283.21 570.7,263.42 636.5,249.6"];
+}
+
