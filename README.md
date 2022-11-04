@@ -2,6 +2,15 @@
 
 Roadmap and goal mapping tool in Go.  Takes a nested list in markdown format on stdin, spits out a Graphviz dot file on stdout.
 
+Example usage:
+
+```
+$ f=examples/food
+$ go run main.go < $f.md > $f.dot 
+$ dot -Tpdf -o $f.pdf $f.dot
+$ evince $f.pdf
+```
+
 Example input:
 ```
 - eat                                                                                                                         
