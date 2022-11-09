@@ -1,4 +1,4 @@
-module main
+module github.com/stevegt/goalmap
 
 go 1.18
 
